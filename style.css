@@ -1,0 +1,60 @@
+html {
+    scroll-behavior: smooth;
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #c2e59c, #64b3f4);
+}
+
+a {
+    text-align: right;
+    width: 100%;
+    display: block;
+    font-weight: 900;
+    position: absolute;
+}
+
+.sky {
+    background: linear-gradient(to bottom, #64b3f4, #c2e59c);
+    height: 6000px;
+    position: relative;
+}
+
+a.bottom {
+    position: fixed;
+    right: 20px;
+    width: 55px;
+    text-transform: uppercase;
+    border: 2px dashed  yellow;
+    background:  #D97351;
+    /* #B7DFA5 */
+    text-align: center;
+    color: #BAE1A2;
+    text-decoration: none;
+    
+}
+
+a.top {
+    bottom: 30px;
+
+    position: fixed;
+    right: 20px;
+    width: 55px;
+    text-transform: uppercase;
+    border: 2px dashed yellow;
+    background: #21A5FE;
+    text-align: center;
+    text-decoration: none;
+}
+
+img {
+    width: auto;
+    height: 350px;
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+    opacity: 0.5;
+    border-radius: 15px;
+
+}
